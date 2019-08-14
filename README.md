@@ -1,7 +1,7 @@
 # GruRL-HVAC_Ctrl
 This repo stores the code used for [Link to BuildSys Paper], along with a [demonstration](agent/Demo.ipynb) in an EnergyPlus model. 
 
-### Install Related Packages** 
+### Install Related Packages 
 The following two packages were used. Install following their documentation.    
 - [Gym-Eplus](https://github.com/zhangzhizza/Gym-Eplus)
     - This package is an OpenGym AI wrapper for EnergyPlus. 
@@ -11,10 +11,10 @@ The following two packages were used. Install following their documentation.
 
 To be confirmed: What else need to be installed other than PyTorch?
 
-### Set up Simulation Environments**
+### Set up Simulation Environments
 - Read the documentation of [Gym-Eplus](https://github.com/zhangzhizza/Gym-Eplus) on setting up simulation environments. 
 - Place the model and weather files in the *eplus_env* folder under the corresponding location in the Gym-Eplus folder. 
-- Register the environments following this table. A *\_\_init\_\_.py* for registeration is included. But, check that it matches your own file placement. 
+- Register the environments following this table. A  *\_\_init\_\_.py* for registeration is included. But, check that it matches your own file placement. 
  
 | **Environment Name** |**Model File (\*.idf)**|**Configuration File (\*.cfg)**|**Weather File (\*.epw)**| 
 |:----------------|:---------------|:--------|:-----------|
