@@ -3,6 +3,7 @@ import sys
 # Assign env_path to be the file path where Gym-Eplus is located.
 env_path = os.path.abspath(os.path.join(__file__, '..', '..', '..'))
 sys.path.insert(0, env_path)
+# Assign mpc_path to be the file path where mpc.torch is located.
 mpc_path = os.path.abspath(os.path.join(__file__,'..', '..'))
 sys.path.insert(0, mpc_path)
 
