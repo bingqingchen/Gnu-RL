@@ -9,9 +9,11 @@ The following two packages were used. Install following their documentation.
 - [mpc.torch](https://github.com/locuslab/mpc.pytorch)
     - This package is a fast and differentiable model predictive control solver for PyTorch.
 
-To be confirmed: What else need to be installed other than PyTorch?
-`$ pip install requirements.txt` 
-(Not finished)
+Install other packages by, 
+```
+$ pip install -r requirements.txt
+``` 
+(To be Confirmed)
 
 ### Set up Simulation Environments
 - Read the documentation of [Gym-Eplus](https://github.com/zhangzhizza/Gym-Eplus) on setting up simulation environments. 
