@@ -16,11 +16,10 @@ To be confirmed: What else need to be installed other than PyTorch?
 - Place the model and weather files in the *eplus_env* folder under the corresponding location in the Gym-Eplus folder. 
 - Register the environments following this table. A *init.py* for registeration is included. But, check that it matches your own file placement. 
  
-| **Environment Name** |**Model File (\*.idf)**|**Configuration File (\*.cfg)**|**Weather File (\*.epw)**| **Description**|
-|:----------------|:---------------|:--------|:-----------|:--------------------------------|
-|**5Zone-sim_TMY2-v0**|5Zone_Default.idf|variables_Default.cfg|pittsburgh_TMY2.epw|Baseline EnergyPlus control; Used in offline pretraining for expert demonstration|
-|**5Zone-control_TMY3-v0**|5Zone_Control.idf|variables_Control.cfg|pittsburgh_TMY3.epw|Gru-RL control; Used in online learning|
-| **5Zone-sim_TMY3-v0**   | 5Zone_Default.idf|variables_Default.cfg|pittsburgh_TMY3.epw|Baseline EnergyPlus control; Used for performance benchmark|
+| **Environment Name** |**Model File (\*.idf)**|**Configuration File (\*.cfg)**|**Weather File (\*.epw)**| |:----------------|:---------------|:--------|:-----------|
+|**5Zone-sim_TMY2-v0**|5Zone_Default.idf|variables_Default.cfg|pittsburgh_TMY2.epw|
+|**5Zone-control_TMY3-v0**|5Zone_Control.idf|variables_Control.cfg|pittsburgh_TMY3.epw|
+| **5Zone-sim_TMY3-v0**   | 5Zone_Default.idf|variables_Default.cfg|pittsburgh_TMY3.epw|
 
 ### Overview
 An example is provided [here](agent/Demo.ipynb), which provides more details. 
