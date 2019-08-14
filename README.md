@@ -10,6 +10,8 @@ The following two packages were used. Install following their documentation.
     - This package is a fast and differentiable model predictive control solver for PyTorch.
 
 To be confirmed: What else need to be installed other than PyTorch?
+`$ pip install requirements.txt` 
+(Not finished)
 
 ### Set up Simulation Environments
 - Read the documentation of [Gym-Eplus](https://github.com/zhangzhizza/Gym-Eplus) on setting up simulation environments. 
