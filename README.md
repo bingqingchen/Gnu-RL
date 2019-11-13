@@ -1,4 +1,4 @@
-# GruRL-HVAC_Ctrl
+# Gnu-RL
 This repo stores the code used for [Link to BuildSys Paper], along with a [demonstration](agent/Demo.ipynb) in an EnergyPlus model. 
 
 ### Install Related Packages 
